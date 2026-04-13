@@ -1,2 +1,24 @@
-# Twitch-Chat-Sentiment-Analysis-main
-A full-stack web app that analyzes live Twitch chat in real time to detect audience sentiment. It classifies messages as positive, neutral, or negative and displays an overall sentiment score using NLP.  Built with React, Node.js, Socket.io, and Google Cloud Natural Language API, it helps streamers understand viewer reactions instantly.
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
